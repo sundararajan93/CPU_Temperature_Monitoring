@@ -19,9 +19,13 @@ sudo apt-get install sensors
 
 ```git clone https://github.com/sundararajan93/CPU_Temperature_Monitoring```
 ```cd CPU_Temperature_Monitoring```
+
 open the terminal and run '11_Sensor_value.py'(This is the demon which creates a CSV file to the directory from where our graph pulls data)
 ```python3 11_Sensor_value.py```
-Now lets run the main Dashboard to view live CPU temperatures from another terminal
-```python3 12_Realtimedata_CSV.py'
 
-NOTE: Do not close the demon (11_Sensor_value.py)This will stop the data feed to CSV file(sensor_data.csv) created in the directory
+Now lets run the main Dashboard to view live CPU temperatures from another terminal
+
+```python3 12_Realtimedata_CSV.py'```
+
+NOTE: Do not close the demon (11_Sensor_value.py)
+This will stop the data feed to CSV file(sensor_data.csv) created in the directory
